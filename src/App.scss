@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+$medium: 900px;
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(211, 210, 210);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 600px) {
+    background-image: none;
+  }
+}
+
+.navbar,
+.section-card-todo {
+  background-color: rgba($color: #eaeaea, $alpha: 0.3);
+}
+
+.navbar {
+  width: 100%;
+}
+
+.section-card-todo {
+  width: 50%;
+}
+
+.agree-logo {
+  width: 20rem;
+}
+
+.btn-added:visited {
+  border: none;
+}
+
+.checkbox-activity {
+  accent-color: rgb(248, 255, 248);
+}
+
+.isChecked-line {
+  text-decoration: line-through;
+}
+
+.data-input {
+  border: none;
+  background-color: #eee;
+  width: "10rem";
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    background-color: #197e4a;
+    display: flex;
+    align-items: center;
+  }
+
+  .section-header {
+    width: 40%;
+    background-color: #eaeaea;
+    border-radius: 20px;
+  }
+
+  .section-responsive {
+    position: relative;
+
+    .logo-header {
+      width: 100%;
+      // background-color: yellow;
+    }
+  }
+
+  .section-card-todo {
+    width: 100%;
+  }
+
+  .section-detail {
+    width: 100%;
+    margin: 0;
+  }
+
+  .section-logo-detail {
+    flex-direction: column;
+  }
+
+  .agree-logo {
+    width: 15rem;
+  }
+
+  .section-content {
+    flex-direction: column;
+
+    .tombol-action {
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+}
