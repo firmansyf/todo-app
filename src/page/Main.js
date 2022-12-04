@@ -141,13 +141,13 @@ function Main() {
                               : ""
                           }`}
                         >
-                          {title},`{" "}
+                          {title},
                         </span>
                         <span
                           style={{ fontSize: "12px", opacity: 0.7 }}
                           className="mx-1"
                         >
-                          {moment(created_at).startOf("hour").fromNow()}
+                          {moment(created_at).format("LLL")}
                         </span>
                       </div>
                       <div className="button-action d-flex">
