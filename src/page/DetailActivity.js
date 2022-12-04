@@ -38,8 +38,6 @@ function DetailActivity() {
   const [loadingDel, setLoadingDel] = useState(false);
   const [titleShow, setTitleShow] = useState(false);
   const [dataTodo, setDataTodo] = useState({});
-  const [order, setOrder] = useState("asc");
-
   const [guid, setGuid] = useState();
   const getId = window.location.pathname.slice(8);
 
