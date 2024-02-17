@@ -79,8 +79,7 @@ const ModalAddEdit: FC<Props> = ({
           }}
           enableReinitialize
         >
-          {({ errors }) => {
-            console.log("er: ", errors);
+          {() => {
             return (
               <>
                 <Form>
