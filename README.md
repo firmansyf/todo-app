@@ -37,5 +37,11 @@ npm run dev / yarn run dev
   Note : On the Activity/Task Detail page, you can do CRUD in it 
 
 
+### Running Cypress
+
+```js
+yarn cypress run / yarn cypress open
+```
+
 - Cypress passed Unit Test
   ![Screenshot 2024-02-17 133537](https://github.com/firmansyf/todo-app/assets/60347685/51d3db1a-d7ed-4933-9399-3fda76a865c3)
