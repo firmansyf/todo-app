@@ -4,7 +4,7 @@ import axios from "@/api/axios";
 export function getAllActivity() {
   return axios({
     method: "get",
-    url: "activity-groups?email=yusufstudent2002@gmail.com",
+    url: `activity-groups?email=${import.meta.env.VITE_BASE_EMAIL}`,
   });
 }
 

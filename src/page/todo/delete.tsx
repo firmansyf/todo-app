@@ -40,8 +40,11 @@ export default function Delete({
   return (
     <>
       <Dialog open={showModal} handler={handleClose}>
-        <DialogHeader>Delete Data {data?.title}</DialogHeader>
-        <DialogBody>Are you sure want to delete data ?</DialogBody>
+        <DialogHeader>Delete Data</DialogHeader>
+        <DialogBody>
+          Are you sure want to delete data{" "}
+          <strong className="font-bold">{data?.title}</strong> ?
+        </DialogBody>
         <DialogFooter>
           <Button
             variant="text"

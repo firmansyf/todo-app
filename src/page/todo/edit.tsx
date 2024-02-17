@@ -47,7 +47,7 @@ export default function Edit({
             return (
               <>
                 <Form>
-                  <DialogHeader>Edit Data {data?.title}</DialogHeader>
+                  <DialogHeader>Edit Data</DialogHeader>
                   <DialogBody>
                     <label>Activity</label>
                     <Field

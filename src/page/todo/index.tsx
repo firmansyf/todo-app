@@ -56,7 +56,7 @@ function Todo() {
   const handleOnClick = () => {
     const params = {
       title: inputItem,
-      email: "yusufstudent2002@gmail.com",
+      email: `${import.meta.env.VITE_BASE_EMAIL}`,
     };
     createNewActivity(params)
       .then(() => {
