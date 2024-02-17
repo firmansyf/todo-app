@@ -34,6 +34,8 @@ npm run dev / yarn run dev
 - Detail Activity/Task
   ![Screenshot 2024-02-17 140950](https://github.com/firmansyf/todo-app/assets/60347685/7cab95f3-1f2d-43a2-a17b-ce14a695dfdc)
 
+  Note : On the Activity/Task Detail page, you can do CRUD in it 
+
 
 - Cypress passed Unit Test
   ![Screenshot 2024-02-17 133537](https://github.com/firmansyf/todo-app/assets/60347685/51d3db1a-d7ed-4933-9399-3fda76a865c3)
