@@ -4,6 +4,10 @@
 
 ```js
 git clone https://github.com/firmansyf/todo-app.git
+
+npm install / yarn install
+
+npm run dev / yarn run dev
 ```
 
 - Public API
